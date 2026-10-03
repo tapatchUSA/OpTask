@@ -57,7 +57,7 @@ TAPATCH, VOID, NEON, EMBER, ARCTIC presets plus a full custom colour editor. Clo
 - The installer comes in the same 10 languages
 - The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
 
-Release notes for every version are on the [Releases](https://github.com/tapatchUSA/OpTask/releases) page.
+Release notes for every version are on the [Releases](https://github.com/tapatchUSA/OpTask/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
