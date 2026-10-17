@@ -2,7 +2,7 @@
 <h1 align="center">OpTask</h1>
 <p align="center"><b>The task manager that shows what actually costs you.</b></p>
 <p align="center">Task Manager & PC Optimizer · Windows 10/11 · x64 · ~5 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/OpTask/releases/latest"><b>⬇ Download OpTask 1.0.2</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/optask/">tapatch.com/tools/optask</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/OpTask/releases/latest"><b>⬇ Download OpTask 1.0.3</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/optask/">tapatch.com/tools/optask</a></p>
 
 <p align="center">
 <img src="screenshots/optask-v1.0.0-processes.png" alt="OpTask v1.0.0 — Processes"><br>
@@ -50,18 +50,16 @@ TAPATCH, VOID, NEON, EMBER, ARCTIC presets plus a full custom colour editor. Clo
 
 - Windows 10/11 only. GPU temperature requires an NVIDIA card (via NVML); utilisation and VRAM work on every vendor. Viewing Defender exclusions and ending elevated processes require running OpTask as administrator.
 
-## What's new in 1.0.2
+## What's new in 1.0.3
 
-- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
-- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
-- The installer comes in the same 10 languages
-- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
+- Nothing else changed
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/OpTask/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **OpTask-Setup-1.0.2.exe** from the [latest release](https://github.com/tapatchUSA/OpTask/releases/latest) or from [tapatch.com](https://tapatch.com/tools/optask/).
+1. Download **OpTask-Setup-1.0.3.exe** from the [latest release](https://github.com/tapatchUSA/OpTask/releases/latest) or from [tapatch.com](https://tapatch.com/tools/optask/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -78,17 +76,18 @@ scoop install tapatch/optask
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.0.3](https://github.com/tapatchUSA/OpTask/releases/tag/v1.0.3) | 2026-10-17 | [OpTask-Setup-1.0.3.exe](https://github.com/tapatchUSA/OpTask/releases/download/v1.0.3/OpTask-Setup-1.0.3.exe) | [1 / 69](https://www.virustotal.com/gui/file/5a4dea60a6607af9ab91aa748c0437c4b0b4981018dfea352992779d358fd4de/detection) | `5a4dea60a6607af9…` |
 | [1.0.2](https://github.com/tapatchUSA/OpTask/releases/tag/v1.0.2) | 2026-10-01 | [OpTask-Setup-1.0.2.exe](https://github.com/tapatchUSA/OpTask/releases/download/v1.0.2/OpTask-Setup-1.0.2.exe) | [2 / 70](https://www.virustotal.com/gui/file/6fe4d5f37e753263c247d1f89b518de22fef67c5732fd17ac57971d6707e8665/detection) | `6fe4d5f37e753263…` |
 | [1.0.1](https://github.com/tapatchUSA/OpTask/releases/tag/v1.0.1) | 2026-09-30 | [OpTask-Setup-1.0.1.exe](https://github.com/tapatchUSA/OpTask/releases/download/v1.0.1/OpTask-Setup-1.0.1.exe) | [1 / 71](https://www.virustotal.com/gui/file/3f2e22dce9cb90de7c24905fe61026a78e1a7b22e5d3268bb3d81a19cff50b6a/detection) | `3f2e22dce9cb90de…` |
 | [1.0.0](https://github.com/tapatchUSA/OpTask/releases/tag/v1.0.0) | 2026-09-16 | [OpTask-Setup-1.0.0.exe](https://github.com/tapatchUSA/OpTask/releases/download/v1.0.0/OpTask-Setup-1.0.0.exe) | [3 / 70](https://www.virustotal.com/gui/file/0eee816757756e884bfc6d2653a948a8cfc2cf44cc569be60bd65138624cc226/detection) | `0eee816757756e88…` |
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. OpTask 1.0.2: **2 / 70** engines flag it · [view report](https://www.virustotal.com/gui/file/6fe4d5f37e753263c247d1f89b518de22fef67c5732fd17ac57971d6707e8665/detection)
+Every installer is scanned on VirusTotal before release. OpTask 1.0.3: **1 / 69** engines flag it · [view report](https://www.virustotal.com/gui/file/5a4dea60a6607af9ab91aa748c0437c4b0b4981018dfea352992779d358fd4de/detection)
 
 **SHA-256**
 ```
-6fe4d5f37e753263c247d1f89b518de22fef67c5732fd17ac57971d6707e8665
+5a4dea60a6607af9ab91aa748c0437c4b0b4981018dfea352992779d358fd4de
 ```
 
 ## Built with
